@@ -15,3 +15,5 @@ To deploy the app you'll need an [OpenShift](https://openshift.redhat.com/app/) 
 Now you can deploy the ``checkins.war`` file to OpenShift. Once deployed, test it like so:
 
     $ curl -X POST -d "comment=hello&x=1&y=1" http://appurl.rhcloud.com/checkin
+
+For a more in-depth guide, refer to the [OpenShift Quickstart](http://www.mongodb.org/display/DOCS/OpenShift+Quickstart) guide at [mongodb.org](http://www.mongodb.org).
