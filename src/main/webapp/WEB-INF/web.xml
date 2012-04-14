@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app>
+    <display-name>Simple Checkins</display-name>
+    <description>
+        This is a simple web application to demonstrate deploying code 
+        onto various platforms-as-a-service. The application is a 
+        simple checkin service, accepting posts of location+comment and 
+        providing information about comments posted near a location.
+    </description>
+
+    <servlet>
+        <servlet-name>CheckinServlet</servlet-name>
+        <servlet-class>CheckinServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckinServlet</servlet-name>
+        <url-pattern>/checkin</url-pattern>
+    </servlet-mapping>
+
+</web-app>     
